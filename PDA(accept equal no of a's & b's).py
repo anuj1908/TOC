@@ -23,7 +23,6 @@ def C(S,i):
 def D(S,i):
     print("D-->", end=" ")
     if len(stack)==1:
-        stack.pop(0)
         print("Accepted")
     else:
         print("Reject")
